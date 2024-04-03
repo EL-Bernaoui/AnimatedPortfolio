@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./header.scss";
-// import facebookImg
+import youtubeImg from '../../assets/youtube.png'
 
 function Header() {
   return (
@@ -24,7 +24,7 @@ function Header() {
             <img src="../../assets/instagram.png" alt="instagram" />
           </a>
           <a href="https://youtube.com" target="blank">
-            <img src="/youtube.png" alt="youtube" />
+            <img src={youtubeImg} alt="youtube" />
           </a>
           <a href="https://dribbble.com/" target="blank">
             <img src="/dribble.png" alt="dribble" />
