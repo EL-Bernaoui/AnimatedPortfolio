@@ -1,0 +1,70 @@
+@import '../../app.scss';
+
+.contact {
+  @include small {
+    padding-right: 15px;
+  }
+
+  .box {
+    text-align: start;
+
+    @include medium {
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 6.25rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+
+      @include xlarge {
+        font-size: 4.25rem;
+      }
+
+      @include custom {
+        font-size: 3.25rem;
+      }
+    }
+  }
+
+  .phoneSvg {
+    stroke: orange;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+
+    svg {
+      @include large {
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  form {
+    gap: 1.25rem;
+
+    input,
+    textarea {
+      background: transparent;
+      border: 0.0625rem solid #fff;
+      color: #fff;
+      padding: 1.25rem;
+      border-radius: 0.625rem;
+      outline: none;
+    }
+
+    textarea {
+      height: 12.5rem;
+      resize: none;
+    }
+
+    .submit_btn {
+      padding: 1rem 1.25rem;
+      background-color: #ffa500;
+      border: none;
+      outline: none;
+      color: #000;
+    }
+  }
+}

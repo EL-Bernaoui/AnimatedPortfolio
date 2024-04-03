@@ -1,0 +1,111 @@
+@import '../../app.scss';
+
+.services {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  padding: 2rem 0 0;
+
+  @include small {
+    padding-right: 1rem;
+  }
+
+  .services_head {
+    padding: 0 0.9375rem;
+
+    .first {
+      padding-right: 12.5rem;
+      font-size: 1.125rem;
+      color: #808080;
+
+      @include medium {
+        padding-right: 1rem;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 0.0625rem;
+        width: 100%;
+        background-color: gray;
+        left: 85%;
+        top: 50%;
+      }
+    }
+
+    .second {
+      @include large {
+        margin-top: 2.5rem;
+        gap: 1.25rem;
+
+      }
+
+      @include medium {
+        margin-top: 2.5rem;
+        gap: 0;
+      }
+
+      .mainBox {
+        gap: 0 1.25rem;
+
+        img {
+          height: 6.25rem;
+          width: 18.75rem;
+          max-width: 100%;
+          object-fit: cover;
+          border-radius: 3rem;
+        }
+
+        p {
+          font-size: 5rem;
+          color: #d3d3d3;
+
+          @include large {
+            font-size: 3.75rem;
+          }
+
+          @include medium {
+            font-size: 3.125rem;
+          }
+
+          @include custom {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      a {
+        padding: 1.5rem 2.5rem;
+        background-color: #ffa500;
+        color: black;
+        text-transform: uppercase;
+        border-radius: 3rem;
+        font-size: 1.5rem;
+
+        @include xlarge {
+          margin-top: -1.25rem;
+        }
+
+        @include custom {
+          margin-top: 0px;
+          padding: 1rem 2.5rem;
+        }
+      }
+    }
+  }
+
+  .box {
+    border: 0.0625rem solid gray;
+    padding: 1.25rem 2rem;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 1.25rem;
+    }
+
+    button {
+      width: 100%;
+      background-color: #ffa500;
+      border: 0;
+      border-radius: 0;
+    }
+  }
+}

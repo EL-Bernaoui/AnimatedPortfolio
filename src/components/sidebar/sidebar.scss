@@ -1,0 +1,25 @@
+.sidebar {
+  .bg {
+    z-index: 999;
+    width: 18.75rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    .links {
+      a {
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  button {
+    z-index: 999;
+    width: 3.125rem;
+    height: 3.125rem;
+    top: 1.5625rem;
+    left: 1.5625rem;
+    cursor: pointer;
+  }
+}

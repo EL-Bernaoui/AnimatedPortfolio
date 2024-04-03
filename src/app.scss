@@ -1,0 +1,67 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+@mixin custom {
+  @media (max-width: 450px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin xlarge {
+  @media (max-width: 1199px) {
+    @content;
+  }
+}

@@ -1,0 +1,117 @@
+@import "../../app.scss";
+
+.portfolio {
+  .myProgress {
+    top: 0;
+    left: 0;
+    padding: 1.25rem 1.25rem 0;
+    z-index: 20;
+    backdrop-filter: blur(0.625rem);
+
+    h2 {
+      font-size: 4.5rem;
+      font-weight: bold;
+      color: #ffa500;
+
+      @include medium {
+        font-size: 3.125rem;
+      }
+
+      @include small {
+        font-size: 2rem;
+      }
+
+    }
+
+    .progressBr {
+      background-color: #fff;
+      height: 0.625rem;
+      border-radius: 0.3125rem;
+    }
+  }
+
+  .wrapper {
+    gap: 3.125rem;
+    transform: translateY(10%);
+
+    @include medium {
+      gap: 0;
+      flex-direction: column;
+      text-align: center;
+      padding-right: 1rem;
+      transform: translateY(16%);
+    }
+
+    @include custom {
+      transform: translateY(24%);
+    }
+
+    .image {
+      flex: 1;
+      height: 50%;
+
+      @include medium {
+        flex: none;
+        height: auto;
+      }
+
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+      }
+    }
+
+    .box {
+      flex: 1;
+
+      @include medium {
+        transform: none !important;
+        margin-top: 1.875rem;
+      }
+
+      h2 {
+        font-size: 4.5rem;
+
+        @include large {
+          font-size: 3.125rem;
+        }
+
+        @include medium {
+          font-size: 2.5rem;
+          margin-bottom: 0;
+        }
+
+        @include custom {
+          font-size: 2rem;
+          margin-bottom: 0;
+        }
+      }
+
+      p {
+        color: gray;
+        font-size: 1.25rem;
+
+        @include medium {
+          margin: 1rem 0 1.25rem;
+          font-size: 1rem;
+        }
+      }
+
+      button {
+        background-color: orange;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 200px;
+        cursor: pointer;
+
+        @include medium {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

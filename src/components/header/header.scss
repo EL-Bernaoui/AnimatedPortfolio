@@ -1,0 +1,22 @@
+@import '../../app.scss';
+
+header {
+  height: 6.25rem;
+
+  .container {
+    padding-left: 4.375rem;
+
+    @include medium {
+      flex-direction: column;
+      justify-content: center !important;
+      gap: 0.625rem;
+      padding-left: 0;
+    }
+
+    .social_media {
+      img {
+        width: 1.2rem;
+      }
+    }
+  }
+}
