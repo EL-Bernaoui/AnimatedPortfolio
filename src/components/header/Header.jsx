@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./header.scss";
+// import facebookImg
 
 function Header() {
   return (
@@ -17,7 +18,7 @@ function Header() {
         </motion.div>
         <div className="social_media d-flex justify-content-center align-items-center gap-3">
           <a href="https://facebook.com" target="blank">
-            <img src="/facebook.png" alt="facebook" />
+            <img src="../../assets/facebook.png" alt="facebook" />
           </a>
           <a href="https://instagram.com" target="blank">
             <img src="/instagram.png" alt="instagram" />
