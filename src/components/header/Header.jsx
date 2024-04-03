@@ -21,7 +21,7 @@ function Header() {
             <img src="../../assets/facebook.png" alt="facebook" />
           </a>
           <a href="https://instagram.com" target="blank">
-            <img src="/instagram.png" alt="instagram" />
+            <img src="../../assets/instagram.png" alt="instagram" />
           </a>
           <a href="https://youtube.com" target="blank">
             <img src="/youtube.png" alt="youtube" />
