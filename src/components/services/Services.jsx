@@ -49,7 +49,7 @@ function Services() {
             variants={variants}
           >
             <div className="mainBox d-flex justify-content-center align-items-center flex-wrap">
-              <img src="/people.webp" alt="meeting" />
+              <img src="../../assets/people.webp" alt="meeting" />
               <p>
                 <motion.b
                   initial={{ color: "#d3d3d3" }}
