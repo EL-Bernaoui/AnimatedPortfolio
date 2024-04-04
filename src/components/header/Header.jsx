@@ -17,16 +17,16 @@ function Header() {
         </motion.div>
         <div className="social_media d-flex justify-content-center align-items-center gap-3">
           <a href="https://facebook.com" target="blank">
-            <img src="../../assets/facebook.png" alt="facebook" />
+            <img src="/assets/facebook.png" alt="facebook" />
           </a>
           <a href="https://instagram.com" target="blank">
-            <img src="../../assets/instagram.png" alt="instagram" />
+            <img src="/assets/instagram.png" alt="instagram" />
           </a>
           <a href="https://youtube.com" target="blank">
-            <img src="../../assets/youtube.png" alt="youtube" />
+            <img src="/youtube.png" alt="youtube" />
           </a>
           <a href="https://dribbble.com/" target="blank">
-            <img src="../../assets/dribble.png" alt="dribble" />
+            <img src="/dribble.png" alt="dribble" />
           </a>
         </div>
       </div>

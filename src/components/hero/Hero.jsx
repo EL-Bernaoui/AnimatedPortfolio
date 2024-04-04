@@ -84,7 +84,7 @@ function Hero() {
                 </motion.a>
               </div>
               <motion.img
-                src="../../assets/scroll.png"
+                src="/scroll.png"
                 alt="scroll"
                 initial={{ y: 0, opacity: 1 }}
                 animate={{ y: 20, opacity: 0 }}
@@ -94,7 +94,7 @@ function Hero() {
           </div>
           <div className="col">
             <div className="hero_img">
-              <motion.img src="../../assets/hero.png" alt="hero" />
+              <motion.img src="/hero.png" alt="hero" />
             </div>
           </div>
         </div>
